@@ -35,7 +35,7 @@
     ## kubectl get
     - 取得所有pods
     ```
-    kubectl get pods --all-namespaces
+    kubectl get pods -A
     ```
     ## kubectl log
     - 查看log
