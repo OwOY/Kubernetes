@@ -42,3 +42,11 @@
     ```
     kubectl logs -f <PodName> -n <NameSpace>
     ```
+    ## kubectl cp
+    - 複製檔案
+    ```
+    # kubectl to 本機
+    kubectl cp <namespace>/<podName>:<src> <dst>
+    # 本機 to kubectl
+    kubectl cp <src> <namespace>/<podName>:<dst>
+    ```
