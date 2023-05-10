@@ -81,3 +81,6 @@ K8s中每個服務、系統皆可獨立部屬，因此不會因為其中一個�
     ```
     kubectl describe pods <PodName> -n <NameSpace>
     ```
+
+# 參考資料
+1. [MetaAge](https://www.metaage.com.tw/news/technology/293)
